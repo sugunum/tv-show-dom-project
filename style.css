@@ -1,3 +1,9 @@
+body {
+
+background : rgb(222,253,255);
+}
+
+
 #root {
   color: red;
 }
