@@ -14,11 +14,11 @@ function makePageForEpisodes(episodeList) {
     let placeHolder = document.createElement("div");
     placeHolder.id = "placeHolder";
     rootElem.appendChild(placeHolder); //(<div></div> created with loop without text) assigned the div inside the root
-
+    let title = document.createElement("h1");
   }
 
 
-
+  placeHolder.appendChild(title);
 
 }
 
